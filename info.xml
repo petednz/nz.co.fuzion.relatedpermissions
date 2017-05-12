@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <extension key="nz.co.fuzion.relatedpermissions" type="module">
-  <downloadUrl>http://github.com/eileenmcnaughton/nz.co.relatedpermissions/zipball/master</downloadUrl>
+  <downloadUrl>http://github.com/eileenmcnaughton/nz.co.fuzion.relatedpermissions/zipball/master</downloadUrl>
   <file>relatedpermissions</file>
   <name>Related Permissions Module</name>
   <description>This makes the relationship permission tick work as a full ACL. In combination with access CiviCRM contacts can be found in search etc</description>
@@ -22,7 +22,7 @@
     <ver>4.7</ver>
   </compatibility>
   <comments>This extension makes the permission flag on a relationship work as a true ACL. In core CiviCRM that flag only allows the user to see the contact dashboard. However, in many cases it is a useful mechanism to give people permission to view contact records and search for contacts.
-  This version requires civicrm_entity extension and should not be used on a 4.4 version less than 4.4.6. This version also allows relationship types to be forced to being permissioned (via the relationship config screen) </comments>
+  This version requires civicrm_entity extension and should not be used on a 4.4 version less than 4.4.6. This version also allows relationship types to be forced to being permissioned (via the relationship config screen). It is dependent on https://github.com/eileenmcnaughton/nz.co.fuzion.entitysetting </comments>
   <civix>
     <namespace>CRM/Relatedpermissions</namespace>
   </civix>
